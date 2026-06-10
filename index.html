@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dims duks</title>
+  <link rel="stylesheet" href="navi.css">
+</head>
+<body>
+  <div class="navigation">
+  <h1>Dims</h1>
+
+  <!-- Tombol ☰ -->
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <ul id="menu">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="navi2.html">music dan video</a></li>
+    <li><a href="dshbrd.html">dashboard</a></li>
+    <li><a href="playlist.html">playlist</a></li>
+  </ul>
+</div>
+<div class="content">
+  <h1>Selamat Datang</h1>
+  <p>Halo, saya Dims 👋</p>
+  <h6>Hai, saya seorang pelajar SMK kelas 10 yang bertekad sebagai seseorang yang lebih paham tentang teknologi. dan ini website yang telah Saya buat, dengan memakai pehaman yang telah Guru-guru saya ajarkan disekolah dan bantuan sedikit AI</h6>
+  <h6>untuk informasi selanjutnya boleh tekan tombol navigasi di kanan atas ↑</h6>
+  </div>
+  
+  <img src="assets/image/mail.jpg" style="max-width: 100%; height: auto; display: block;">
+
+  
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+</script>
+</body>
+</html>

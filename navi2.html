@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dims duks</title>
+  <link rel="stylesheet" href="navi.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navigation">
+    <h1>Dims</h1>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <ul id="menu">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="navi2.html">music dan video</a></li>
+    <li><a href="dshbrd.html">dashboard</a></li>
+    <li><a href="playlist.html">playlist</a></li>
+  </ul>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+    <h1>Selamat Datang</h1>
+    <p>Selamat datang, ini bagian dari musik dan video</p>
+    
+   <h1>musik</h1>  
+ <audio src="assets/audio/multo.m4a" controls autoplay></audio>
+<h1>Video</h1>  
+  <p>hidup ini hanya sebatas ujian</p>  
+  <video src="life is fun.mp4" width="100%" autoplay controls loop></video>
+  <h1>video ke2</h1>  
+  <video src="personality.mp4" width="100%" autoplay controls loo0></video>
+
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
